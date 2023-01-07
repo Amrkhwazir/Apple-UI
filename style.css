@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+                      /* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1d1d1f;
+    width: 100;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    margin: 10px 0px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #f5f5f7;
+    font-weight: 400px;
+}
+
+                      /* 1st bg pictue */
+
+    .box1 .img1{
+        background-image: url(./images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg);
+        height: 600px;
+        width: 100%;
+        background-position:center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding-top: 50px;
+    }                     
+    .box1 .img1 h1{
+        font-size: 50px;
+
+    }
+    .box1 .img1 p{
+        font-size: 30px;
+    }
+    .img1 li{
+        list-style-type: none;  
+    }
+    .img1 li a{
+        text-decoration: none;
+        color: #2992ff;
+        line-height: 1.5;
+        font-size:18px;
+    } 
+
+          /* 2nd bg pictue */
+          .box2 .img2{
+            background-image: url(./images/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+            height: 600px;
+            width: 100%;
+            background-position:center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(31, 31, 31);
+            padding-top: 50px;
+        }                     
+        .box2 .img2 h1{
+            font-size: 50px;
+    
+        }
+        .box2 .img2 p{
+            font-size: 30px;
+        }
+        .img2 li{
+            list-style-type: none;  
+        }
+        .img2 li a{
+            text-decoration: none;
+            color: #2992ff;
+            line-height: 1.5;
+            font-size:18px;
+        }
+
+        /* 3rd bg pictue */
+ .box3 .img3{
+            background-image: url(./images/hero_apple_watch_series_8__bjc1ok5mkjua_large_2x.jpg);
+            height: 600px;
+            width: 100%;
+            background-position:center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding-top: 50px;
+}    
+.box3 .img3 img{
+    width: 170px;
+    height: 70px;
+}
+                
+.box3 .img3 p{
+            font-size: 30px;
+            line-height: 1.5;
+}
+.img3 li{
+            list-style-type: none;  
+}
+.img3 li a{
+            text-decoration: none;
+            color: #2992ff;
+            line-height: 1.5;
+            font-size:18px;
+}
+        
+           /* 4th/5th bg pictue */
+
+.box4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding-top: 10px; ; 
+            color: rgb(31, 31, 31);          
+}    
+.box4 .img4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 49.5%;
+    margin-left: auto;
+    padding-top: 50px;
+}
+.box4 .img4 img{
+    width: 200px;
+    height: 35px;
+}
+
+.box4 .img4 p{
+    font-size: 22px;
+}
+.img4 li{
+    list-style-type: none;  
+}
+.img4 li a{
+    text-decoration: none;
+    color: #2992ff;
+    line-height: 1.5;
+    font-size:18px;
+}
+.box4 .img5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-image: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 49.5%;
+    margin-left: auto;
+    left: 0px;
+    padding-top: 50px;
+}
+.box4 .img5 img{
+    width: 150px;
+    height: 50px;
+}
+ 
+.box4 .img5 p{
+    font-size: 22px;
+    line-height: 2;
+}
+.img5 li{
+    list-style-type: none;  
+}
+.img5 li a{
+    text-decoration: none;
+    color: #2992ff;
+    line-height: 1.5;
+    font-size:18px;
+}
+
+        /* 6th/7th bg pictue */
+
+        .box5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding-top: 10px; ; 
+            color: rgb(31, 31, 31);          
+}    
+.box5 .img6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/promo_ipad__fioegapg12qi_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 49.5%;
+    margin-left: auto;
+    padding-top: 30px;
+}
+.box5 .img6 h1{
+    font-size: 50px;
+
+}
+
+.box5 .img6 p{
+    font-size: 22px;
+}
+.img6 li{
+    list-style-type: none;  
+}
+.img6 li a{
+    text-decoration: none;
+    color: #2992ff;
+    line-height: 1.5;
+    font-size:18px;
+}
+.box5 .img7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-image: url(./images/promo__sw58lbodkmqq_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 49.5%;
+    margin-left: auto;
+    left: 0px;
+    color: white;
+    padding-top: 30px;
+}
+.box5 .img7 h1{
+    font-size: 50px;
+}
+
+.box5 .img7 img{
+    width: 150px;
+    height: 50px;
+}
+ 
+.box5 .img7 p{
+    font-size: 22px;
+}
+.img7 li{
+    list-style-type: none;  
+}
+.img7 li a{
+    text-decoration: none;
+    color: #ffff;
+    line-height: 1.5;
+    font-size:18px;
+}
+
+        /* 8th/9th bg pictue */
+ .box6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 10px; ; 
+    color: rgb(31, 31, 31);          
+}
+.box6 .img8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/tile__cauwwcyyn9hy_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 49.5%;
+    margin-left: auto;
+    padding-top: 30px;
+}
+.box6 .img8 img{
+    width: 120px;
+    height: 35px;
+}
+
+.box6 .img8 p{
+    font-size: 22px;
+    
+}
+.img8 li{
+    list-style-type: none;  
+}
+.img8 li a{
+    text-decoration: none;
+    color: #2992ff;
+    line-height: 1.5;
+    font-size:18px;
+}
+.box6 .img9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-image: url(./images/xoxo_promo__czow8gsh0gk2_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 49.5%;
+    margin-left: auto;
+    left: 0px;
+    padding-top: 40px;
+}
+.box6 .img9 img{
+    width: 120px;
+    height: 30px;
+}
+ 
+.box6 .img9 p{
+    font-size: 25px;
+    color: #fff;
+    line-height: 2;
+}
+.img9 li{
+    list-style-type: none;  
+}
+.img9 li a{
+    text-decoration: none;
+    color: #2992ff;
+    line-height: 1.5;
+    font-size:18px;
+}
+
+    /* slider */
+
+.slider{
+    background-image: url(images/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px;
+    animation: changeImage 20s linear infinite;
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url(images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg);
+    }
+    25% {
+        background-image: url(images/hero_apple_watch_series_8__bjc1ok5mkjua_large_2x.jpg);
+    }
+    50% {
+        background-image: url(images/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+    }
+    75% {
+        background-image: url(images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large_2x.jpg);
+    }
+    100% {
+        background-image: url(images/promo_ipad__fioegapg12qi_large_2x.jpg);
+    }
+}
+
+   /* footer */
+
+.footer{
+    background-color: #f8f7f7;
+    color: #6e6e73;
+    width: 100%;
+    height: 1100px;
+    padding: 20px 50px;
+}
+
+.footer .para1 li{
+list-style-type: none;
+}
+
+.footer .para1 p{
+    line-height: 1.5;
+    padding-bottom: 15px;
+    
+}
+
+.footer .table{
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+.table .title{
+    color: #1d1d1f;
+    font-weight: bold;
+}
+.footer td{
+    cursor: pointer;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.footer td:hover{
+    text-decoration: underline;
+}
+.footer .bottom p{
+    padding-top: 30px;
+    word-spacing: 2px;
+}
+.footer .bottom a{
+    text-decoration: none;
+    color: #2992ff;
+}
+.finaSlection{
+    margin-bottom: 30px;
+}
+.finaSlection a{
+    font-size: 15px;
+text-decoration: none;
+color: #6e6e73;
+}
+.finaSlection a:hover{
+    text-decoration: underline;
+}
